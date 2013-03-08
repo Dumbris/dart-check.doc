@@ -49,7 +49,7 @@ class QuickCheck extends Check {
    int counter = 0;
    while (counter &lt;= maxSize &amp;&amp; !parts.isEmpty()) {
      if (parts.head.card &gt; 0) {
-       nonEmptyParts.addLast(new Pair(counter, parts.head));
+       nonEmptyParts.add(new Pair(counter, parts.head));
      }
      counter++;
      parts = parts.tail;
@@ -146,7 +146,7 @@ void check(Property property) {
  int counter = 0;
  while (counter &lt;= maxSize &amp;&amp; !parts.isEmpty()) {
    if (parts.head.card &gt; 0) {
-     nonEmptyParts.addLast(new Pair(counter, parts.head));
+     nonEmptyParts.add(new Pair(counter, parts.head));
    }
    counter++;
    parts = parts.tail;
@@ -199,7 +199,7 @@ void display(String message) {
         <div class="clear"></div>
         </div>
         <div class="footer">
-          <div>This page was generated at 2013-02-27 23:18:50.826</div>
+          <div>This page was generated at 2013-03-08 10:49:25.939</div>
         </div>
         <script async src="../client-live-nav.js"></script>
         </body></html>
